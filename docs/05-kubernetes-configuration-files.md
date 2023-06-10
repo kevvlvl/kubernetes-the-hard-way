@@ -51,6 +51,8 @@ Results:
 kube-proxy.kubeconfig
 ```
 
+#### To validate, Make sure the current-context is set to default in the kubeconfig files
+
 Reference docs for kube-proxy [here](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/)
 
 ### The kube-controller-manager Kubernetes Configuration File
@@ -83,6 +85,8 @@ Results:
 ```
 kube-controller-manager.kubeconfig
 ```
+
+#### To validate, Make sure the current-context is set to default in the kubeconfig files
 
 Reference docs for kube-controller-manager [here](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
 
